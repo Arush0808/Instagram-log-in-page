@@ -44,6 +44,7 @@
             font-size: 12px;
         }
         .info button{
+
             width: 270px;
             height: 30px;
             border: none;
@@ -52,6 +53,9 @@
             color: white;
             font-weight: bold;
             margin-top: 15px;
+        }
+        button:hover{
+            background-color: black;
         }
         .log-info{
             display: flex;
@@ -97,6 +101,7 @@
             padding: 20px;
             font-size: 14px;
             margin-top: 30px;
+            
         }
         #Sign{
             color:#4750f7;
@@ -115,6 +120,11 @@
         footer ul li:hover{
             text-decoration: underline;
             cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            padding: 2px;
+            
         }
          @media (max-width: 768px) {
             .container {
@@ -153,6 +163,7 @@
                 flex-direction: column;
                 gap: 10px;
             }
+            
 
             footer ul {
                 width: 90%;
